@@ -24,8 +24,7 @@ def lorenz96(initial_state, nsteps):
     >>> lorenz96([False, False, True, False, False], 3)
     array([True, False, True, True, True])
     """
-
-    #print(updated_state)
+    
     new_state = np.array(initial_state, np.float64)
     
     for _ in range(nsteps):
